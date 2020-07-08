@@ -1,3 +1,4 @@
 {
-    "mongoURI":"mongodb+srv://manas:manas@cluster0.auaiz.mongodb.net/MERN?retryWrites=true&w=majority"
+    "mongoURI":"mongodb+srv://manas:manas@cluster0.auaiz.mongodb.net/MERN?retryWrites=true&w=majority",
+    "jwtToken":"this"
 }

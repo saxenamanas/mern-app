@@ -1,26 +1,26 @@
 {
-  "name": "mern",
+  "name": "devconnector",
   "version": "1.0.0",
-  "description": "",
+  "description": "Social network for developers",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
-  "author": "Manas",
-  "license": "ISC",
+  "author": "Brad Traversy",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.3.1",
-    "express": "^4.17.1",
-    "express-validator": "^6.6.0",
-    "gravatar": "^1.8.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.21",
-    "request": "^2.88.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^9.4.1"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^1.17.3"
   }
 }
